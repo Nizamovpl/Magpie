@@ -11,5 +11,5 @@
     - A.L.I.C.E & Zena had a response along the line with "idk"
 
 ## What's interesting or peculiar. 
-    (some parts of this were answered in where they are from, but I wanted to generalize this)
+    (some parts of this were answered in where they are from, but I wanted to generalize this. I was confused on the scope of it)
     - I think Zena is interesting, she has the most lore and personality. 
