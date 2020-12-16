@@ -103,7 +103,7 @@ public class Magpie3 {
 			// The last position didn't work, so let's find
 			// the next, if there is one.
 			psn = phrase.indexOf(goal, psn + 1);
-
+			i++; 
 		}
 
 		return -1;
