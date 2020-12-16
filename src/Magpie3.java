@@ -36,6 +36,16 @@ public class Magpie3 {
 				|| findKeyword(statement, "sister") >= 0
 				|| findKeyword(statement, "brother") >= 0) {
 			response = "Tell me more about your family.";
+		} else if (findKeyword(statement, "dog") >= 0 || findKeyword(statement,"cat") >= 0) {
+			response = "Tell me more about your pets.";
+		} else if (findKeyword(statement, "Mr. Padjen") >= 0) {
+			response = "He sounds like a good teacher.";
+		} else if (findKeyword(statement,"how") >= 0) {
+			response = "Through a variety of tasks, I'm confident in you. :D";
+		} else if (findKeyword(statement,"what") >= 0) {
+			response = "I cannot identify that.";
+		} else if (findKeyword(statement,"when") >= 0) {
+			response = "Time is relative, I'm stuck in time right now. ";
 		} else {
 			response = getRandomResponse();
 		}
@@ -63,6 +73,7 @@ public class Magpie3 {
 		// The only change to incorporate the startPos is in
 		// the line below
 		int psn = phrase.indexOf(goal, startPos);
+		int i = 1;
 
 		// Refinement--make sure the goal isn't part of a
 		// word
